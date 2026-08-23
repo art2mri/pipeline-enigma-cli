@@ -61,7 +61,7 @@ docker run --rm \
   -v /absolute/path/to/input:/input_data:ro \
   -v /absolute/path/to/output:/output_data \
   pipeline-enigma-cli \
-  --input-dir /dados_entrada \
+  --input-dir /input_data \
   --output-dir /output_data \
   --subject patient_001
 ```
