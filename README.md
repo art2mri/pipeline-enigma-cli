@@ -2,7 +2,7 @@
 
 A Docker-based pipeline for automated processing of NIfTI (`.nii.gz`) spinal cord images.
 
-The container extends the `art2mri/vertebral_labeling:3.0` image and runs `enigma_pipeline.py` as its default entrypoint. The Python orchestrator performs the main Enigma-SC processing steps, including spinal cord segmentation, vertebral labeling, registration, clinical data extraction, and generation of consolidated CSV results.
+The container extends the `art2mri/vertebral_labeling:5.0` image and runs `enigma_pipeline.py` as its default entrypoint. The Python orchestrator performs the main Enigma-SC processing steps, including spinal cord segmentation, vertebral labeling, registration, clinical data extraction, and generation of consolidated CSV results.
 
 The input directory is treated as the source of the original NIfTI images, while intermediate and final results are written to a separate output directory.
 
