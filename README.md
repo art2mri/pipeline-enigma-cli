@@ -110,6 +110,17 @@ output/
 | `--output-dir` | Yes | Directory where results will be written. |
 | `--subject` | No | Process only the specified subject. If omitted, all detected subjects are processed. |
 
+## Citation
+
+Please cite the following paper when using Enigma-SC:
+
+```text
+Jarola, G.M., Shiraishi, D.H. et al.
+A deep learning framework for automated cervical spinal cord vertebral labeling and morphometric extraction from brain MRI with large-scale multicenter validation.
+npj Digit. Med. (2026).
+https://doi.org/10.1038/s41746-026-03403-w
+```
+
 ## Contact
 
 For questions, issues, or contributions, please contact:
